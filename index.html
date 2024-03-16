@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>English words</title>
+	<link rel="stylesheet" href="https://konstantinsenatov.github.io/English-words/swiper-bundle.min.css">
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+		body {
+			font-family: "Varela Round", sans-serif;
+			font-weight: 400;
+		}
+		.swiper-button {
+			color: #485442;
+		}
+		.swiper-button.swiper-button-disabled {
+			opacity: 0;
+		}
+		.swiper-slide {
+			width: auto!important;
+		}
+
+		.buttons {
+			
+		}
+		.button {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 10px 20px;
+			font-size: 24px;
+			cursor: pointer;
+			background-color: #EADACE;
+		}
+
+
+		ul.list {
+			max-width: 600px;
+		}
+
+		.list{
+			display: grid;
+			overflow: hidden;
+			grid-template-rows: 0fr;
+			transition-duration: 0.5s;
+		}
+		.list ul{
+			margin: 0;
+			padding: 0;
+			min-height: 0;
+			margin: 0;
+		}
+		.list.active{
+			grid-template-rows: 1fr;
+		}
+		.list ul li {
+			margin-top: 25px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-bottom: 2px dashed #000000;
+			font-size: 20px;
+		}
+		.list ul li span:last-child {
+			text-align: right;
+		}
+	</style>
+
+</head>
+<body>
+	<div>
+		<div class="buttons swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div data-button="1" class="button button-put">Put</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="2" class="button button-put1">Pull</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="3" class="button button-put1">Take</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="4" class="button button-put1">Be</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="5" class="button button-put1">Give</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="6" class="button button-put">Break</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="7" class="button button-put1">Look</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="8" class="button button-put1">Go</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="9" class="button button-put1">Turn</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="10" class="button button-put1">Keep</div>
+				</div>
+				<div class="swiper-slide">
+					<div data-button="11" class="button button-put1">Do</div>
+				</div>
+			</div>
+			<div class="swiper-button swiper-button-prev"></div>
+			<div class="swiper-button swiper-button-next"></div>
+		</div>
+		<main>
+			<div data-list="1" class="list active">
+				<ul>
+					<li>
+						<span>put on</span>
+						<span>надевать</span>
+					</li>
+					<li>
+						<span>put out</span>
+						<span>гасить, тушить</span>
+					</li>
+					<li>
+						<span>put off</span>
+						<span>откладывать, медлить</span>
+					</li>
+					<li>
+						<span>put down</span>
+						<span>критиковать</span>
+					</li>
+					<li>
+						<span>put over</span>
+						<span>обманывать</span>
+					</li>
+					<li>
+						<span>put about</span>
+						<span>распространять слухи</span>
+					</li>
+					<li>
+						<span>put aside</span>
+						<span>откладывать</span>
+					</li>
+					<li>
+						<span>put back</span>
+						<span>отсрочить</span>
+					</li>
+					<li>
+						<span>put forth</span>
+						<span>выдвигать</span>
+					</li>
+					<li>
+						<span>put up</span>
+						<span>устанавливать</span>
+					</li>
+					<li>
+						<span>put up with</span>
+						<span>мириться с</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="2" class="list">
+				<ul>
+					<li>
+						<span>pull away</span>
+						<span>выделяться</span>
+					</li>
+					<li>
+						<span>pull back</span>
+						<span>отступать</span>
+					</li>
+					<li>
+						<span>pull off</span>
+						<span>отходить, отъезжать</span>
+					</li>
+					<li>
+						<span>pull out</span>
+						<span>вынимать, выдвигать</span>
+					</li>
+					<li>
+						<span>pull up</span>
+						<span>останавливать, исправлять</span>
+					</li>
+					<li>
+						<span>pull in</span>
+						<span>останавливаться</span>
+					</li>
+					<li>
+						<span>pull on</span>
+						<span>натягивать одежду</span>
+					</li>
+					<li>
+						<span>pull down</span>
+						<span>рушить, сносить</span>
+					</li>
+					<li>
+						<span>pull over</span>
+						<span>останавливаться</span>
+					</li>
+					<li>
+						<span>pull apart</span>
+						<span>развести драку</span>
+					</li>
+					<li>
+						<span>pull ahead</span>
+						<span>опередить</span>
+					</li>
+					<li>
+						<span>pull through</span>
+						<span>выложить, протянуть</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="3" class="list">
+				<ul>
+					<li>
+						<span>take off</span>
+						<span>снимать одежду</span>
+					</li>
+					<li>
+						<span>take off</span>
+						<span>взлетать</span>
+					</li>
+					<li>
+						<span>take up</span>
+						<span>начать заниматься чем-то</span>
+					</li>
+					<li>
+						<span>take after</span>
+						<span>быть похожим на</span>
+					</li>
+					<li>
+						<span>take out</span>
+						<span>вывести (в свет)</span>
+					</li>
+					<li>
+						<span>take in</span>
+						<span>понять, осознать</span>
+					</li>
+					<li>
+						<span>take back</span>
+						<span>возвращать</span>
+					</li>
+					<li>
+						<span>take down</span>
+						<span>снимать, убирать, записывать</span>
+					</li>
+					<li>
+						<span>take on</span>
+						<span>брать на работу</span>
+					</li>
+					<li>
+						<span>take over</span>
+						<span>вступать во владение</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="4" class="list">
+				<ul>
+					<li>
+						<span>be after</span>
+						<span>хотеть</span>
+					</li>
+					<li>
+						<span>be against</span>
+						<span>быть против</span>
+					</li>
+					<li>
+						<span>be away</span>
+						<span>отсутствовать</span>
+					</li>
+					<li>
+						<span>ba back</span>
+						<span>возвращаться</span>
+					</li>
+					<li>
+						<span>be for</span>
+						<span>быть за</span>
+					</li>
+					<li>
+						<span>be in for</span>
+						<span>ожидать</span>
+					</li>
+					<li>
+						<span>be off</span>
+						<span>уезжать</span>
+					</li>
+					<li>
+						<span>be on</span>
+						<span>транслироваться</span>
+					</li>
+					<li>
+						<span>be out</span>
+						<span>быть не на месте</span>
+					</li>
+					<li>
+						<span>be over</span>
+						<span>закончиться</span>
+					</li>
+					<li>
+						<span>be through with</span>
+						<span>закончить</span>
+					</li>
+					<li>
+						<span>be up</span>
+						<span>проснуться</span>
+					</li>
+					<li>
+						<span>be up to</span>
+						<span>затевать, задумывать</span>
+					</li>
+					<li>
+						<span>be with</span>
+						<span>поддерживать</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="5" class="list">
+				<ul>
+					<li>
+						<span>give up</span>
+						<span>сдаваться</span>
+					</li>
+					<li>
+						<span>give away</span>
+						<span>выдавать (секрет)</span>
+					</li>
+					<li>
+						<span>give over</span>
+						<span>переставать, бросать</span>
+					</li>
+					<li>
+						<span>give in</span>
+						<span>уступать, сдаваться</span>
+					</li>
+					<li>
+						<span>give out</span>
+						<span>объявлять, выдавать</span>
+					</li>
+					<li>
+						<span>give back</span>
+						<span>отдавать</span>
+					</li>
+					<li>
+						<span>give off</span>
+						<span>произвадить, вырабатывать</span>
+					</li>
+					<li>
+						<span>give onto</span>
+						<span>выходить, иметь вид на</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="6" class="list">
+				<ul>
+					<li>
+						<span>break away</span>
+						<span>уходить, сбегать</span>
+					</li>
+					<li>
+						<span>break down</span>
+						<span>расстроиться, сломаться</span>
+					</li>
+					<li>
+						<span>break into</span>
+						<span>ворваться, проникнуть</span>
+					</li>
+					<li>
+						<span>break off</span>
+						<span>прерваться</span>
+					</li>
+					<li>
+						<span>break out of</span>
+						<span>вырваться из</span>
+					</li>
+					<li>
+						<span>break through</span>
+						<span>прорваться, преодолеть</span>
+					</li>
+					<li>
+						<span>break up</span>
+						<span>расстаться</span>
+					</li>
+					<li>
+						<span>break out</span>
+						<span>развиться</span>
+					</li>
+					<li>
+						<span>break in</span>
+						<span>прервать, перебить</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="7" class="list">
+				<ul>
+					<li>
+						<span>look after</span>
+						<span>присматривать за</span>
+					</li>
+					<li>
+						<span>look ahead</span>
+						<span>планировать</span>
+					</li>
+					<li>
+						<span>look at</span>
+						<span>взглянуть на</span>
+					</li>
+					<li>
+						<span>look back</span>
+						<span>оглядваться назад</span>
+					</li>
+					<li>
+						<span>look down on</span>
+						<span>пренебрегать</span>
+					</li>
+					<li>
+						<span>look for</span>
+						<span>искать</span>
+					</li>
+					<li>
+						<span>look forward to</span>
+						<span>с нетерпением ждать</span>
+					</li>
+					<li>
+						<span>look in</span>
+						<span>заскочить, забежать</span>
+					</li>
+					<li>
+						<span>look into</span>
+						<span>рассмотреть</span>
+					</li>
+					<li>
+						<span>look up</span>
+						<span>посмотреть в книге</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="8" class="list">
+				<ul>
+					<li>
+						<span>go away</span>
+						<span>уходить уезжать</span>
+					</li>
+					<li>
+						<span>go on</span>
+						<span>продолжаться</span>
+					</li>
+					<li>
+						<span>go off</span>
+						<span>взрываться, срабатывать</span>
+					</li>
+					<li>
+						<span>go down</span>
+						<span>падать, снижаться</span>
+					</li>
+					<li>
+						<span>go after</span>
+						<span>преследовать, следовать за кем-то</span>
+					</li>
+					<li>
+						<span>go up</span>
+						<span>подниматься, увеличиваться</span>
+					</li>
+					<li>
+						<span>go out</span>
+						<span>выходить, гаснуть, исчерпать</span>
+					</li>
+					<li>
+						<span>go back</span>
+						<span>возвращаться</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="9" class="list">
+				<ul>
+					<li>
+						<span>turn into</span>
+						<span>превращаться во что-либо</span>
+					</li>
+					<li>
+						<span>turn on</span>
+						<span>включать</span>
+					</li>
+					<li>
+						<span>turn down</span>
+						<span>отказаться от предложения, приглашения</span>
+					</li>
+					<li>
+						<span>turn around</span>
+						<span>развернуться, измениться к лучшему</span>
+					</li>
+					<li>
+						<span>turn down</span>
+						<span>уменьшать, делать тише</span>
+					</li>
+					<li>
+						<span>turn up</span>
+						<span>увеличивать, делать громче</span>
+					</li>
+					<li>
+						<span>turn out</span>
+						<span>оказываться</span>
+					</li>
+					<li>
+						<span>turn off</span>
+						<span>выключать</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="10" class="list">
+				<ul>
+					<li>
+						<span>keep in</span>
+						<span>держать взаперти</span>
+					</li>
+					<li>
+						<span>keep on</span>
+						<span>продолжать</span>
+					</li>
+					<li>
+						<span>keep to</span>
+						<span>придерживаться</span>
+					</li>
+					<li>
+						<span>keep up</span>
+						<span>сохранять, продолжать</span>
+					</li>
+					<li>
+						<span>keep up with</span>
+						<span>успевать за</span>
+					</li>
+					<li>
+						<span>keep back</span>
+						<span>скрывать</span>
+					</li>
+					<li>
+						<span>keep down</span>
+						<span>мешать</span>
+					</li>
+					<li>
+						<span>keep from</span>
+						<span>не давать сделать</span>
+					</li>
+				</ul>
+			</div>
+			<div data-list="11" class="list">
+				<ul>
+					<li>
+						<span>do in</span>
+						<span>переутомить</span>
+					</li>
+					<li>
+						<span>do to</span>
+						<span>менять</span>
+					</li>
+					<li>
+						<span>do up</span>
+						<span>застегивать</span>
+					</li>
+					<li>
+						<span>do for</span>
+						<span>мешать</span>
+					</li>
+					<li>
+						<span>do out</span>
+						<span>разобрать</span>
+					</li>
+					<li>
+						<span>do down</span>
+						<span>унизить</span>
+					</li>
+					<li>
+						<span>do over</span>
+						<span>ограбить</span>
+					</li>
+					<li>
+						<span>do with</span>
+						<span>быть связанным с</span>
+					</li>
+				</ul>
+			</div>
+		</main>
+	</div>
+
+	<script src="https://konstantinsenatov.github.io/English-words/swiper-bundle.min.js"></script>
+	<script>
+		var button = document.querySelectorAll(".button");
+		var list = document.querySelectorAll(".list");
+
+		for (var i = 0; i < button.length; i++) {
+
+			button[i].addEventListener("click", function (e) {
+				e.preventDefault();
+				var activeButtonAttr = e.target.getAttribute("data-button");
+				console.log('777');
+				for (var j = 0; j < button.length; j++) {
+					var listAttr = list[j].getAttribute("data-list");
+
+					if (activeButtonAttr === listAttr) {
+						button[j].classList.add("active");
+						list[j].classList.add("active");
+					} else {
+						button[j].classList.remove("active");
+						list[j].classList.remove("active");
+					}
+				};
+			});
+		}
+
+
+		var buttons = new Swiper(".buttons", {
+			slidesPerView: "auto",
+			spaceBetween: 10,
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev"
+			}
+		});
+	</script>
+</body>
+</html>
