@@ -134,7 +134,7 @@
 		</div>
 		<main>
 			<div data-list="1" class="list active">
-				<ul><table>
+				<div><table>
     <tr>
         <th>Фразовый глагол</th>
         <th>Перевод</th>
@@ -239,7 +239,7 @@
             3. We have to put up with this weather for a few more days.
         </td>
     </tr>
-</table></ul>
+</table></div>
 
 				
 			</div>
@@ -676,7 +676,6 @@
 			button[i].addEventListener("click", function (e) {
 				e.preventDefault();
 				var activeButtonAttr = e.target.getAttribute("data-button");
-				console.log('777');
 				for (var j = 0; j < button.length; j++) {
 					var listAttr = list[j].getAttribute("data-list");
 
